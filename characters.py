@@ -6,7 +6,7 @@ my_super_hero = {
     "health": 100,         # Integer
     "equipment": {"Ring", "Energy Pill"},     # Set of strings
     # Tuple of Tuples (name, damage)
-    "attacks":  (("Calculating Brain", 100), ("Supersonic flight", 80), ("Atomizing Eyes", 60)),
+    "attacks":  (("Calculating Brain", 90), ("Supersonic flight", 80), ("Atomizing Eyes", 40)),
     "coins": { # Dictionary
         "copper":  40,  # Integer
         "silver":  20,  # Integer
@@ -19,7 +19,7 @@ villan_one = {
     "level": 1,            # Integer
     "health": 100,         # Integer
     "equipment": {"Broom", "Potion"},     # Set of strings
-    "attacks":  (("Evil Spell", 50), ("Deadly Brew", 40), ("Monkey Attack", 20)),
+    "attacks":  (("Evil Spell", 60), ("Deadly Brew", 40), ("Monkey Attack", 10)),
     #Tuple of Tuples (name, damage)
     "coins": {    # Dictionary
         "copper":  40,  # Integer
@@ -47,7 +47,7 @@ villan_three = {
     "level": 1,            # Integer
     "health": 100,         # Integer
     "equipment": {"batteries", "Chemicals"},     # Set of strings
-    "attacks":  (("electric shock", 30), ("memory loss capsule", 20), ("Immobilizing shot", 10)),
+    "attacks":  (("electric shock", 20), ("memory loss capsule", 10), ("Immobilizing shot", 5)),
     #Tuple of Tuples
     "coins": {    # Dictionary
         "copper":  40,  # Integer
