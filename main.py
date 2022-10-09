@@ -1,17 +1,11 @@
 print ("Hello all")
 
+import battle
 
-# Hero Villan Import 
+# run battles between hero and villans
 
-import characters
-from characters import my_super_hero
-from characters import villan_one
+my_game = battle.run_battle()
+print (my_game)
 
-# Print a value from Hero dictionary
 
-print (my_super_hero['name'])
-
-print (villan_one['name'])
-
-# Create battle between hero and villan
 

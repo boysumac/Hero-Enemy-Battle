@@ -1,5 +1,5 @@
 
-#Charcters and attributes
+#Characters and attributes
 my_super_hero = {
     "name": 'Underdog',    # String
     "level": 1,            # Integer
